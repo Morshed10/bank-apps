@@ -9,9 +9,11 @@
       src="https://kit.fontawesome.com/a2202ca0f6.js"
       crossorigin="anonymous"
     ></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>YourBank Apps</title>
   </head>
   <body class="bg-[#191919]">
+
     <!--Header Section-->
     <div>
       <img
@@ -52,10 +54,10 @@
       </nav>
 
       <div class="hidden md:flex items-center space-x-4">
-        <a href="#" class="text-white hover:hover:text-[#747070] transition"
+        <a href="signup.html" class="text-white hover:hover:text-[#747070] transition"
           >Sign Up</a
         >
-        <a href="#" class="button">Login</a>
+        <a href="login.html" class="button">Login</a>
       </div>
     </header>
 
@@ -108,7 +110,7 @@
           goals. We are committed to delivering personalized and innovative
           services that prioritize our customers' needs.
         </p>
-        <a href="#" class="button">Open Account</a>
+        <a href="login.html" class="button">Open Account</a>
       </section>
 
       <section class="flex-1 flex flex-col items-end relative mt-12 md:mt-0">
@@ -620,9 +622,11 @@
                   solutions and exceptional customer service.</p>
               </div>
               <div class="mt-8 md:mt-0">
-                <a href="#" class="button">Open Account</a>
+              <a href="#" class="button">Open.Account</a>
+
+             
               </div>
-             </div>
+            </div>
            </div>
         </div>
        </section>
@@ -644,32 +648,32 @@
 
             <div class="border-t border-b border-primary/5 p-6 mb-8 flex flex-col md:flex-row items-center justify-center gap-6 w-[78%] mx-auto">
               <div class="flex items-center gap-2">
-                <i class="fa-solid fa-envelope text-primary"></i>
-                <span class="text-white">
-                  hello@skillbirdge.com</span>
+              <a href="https://mail.google.com/mail/u/1/#inbox"> <i class="fa-solid fa-envelope text-primary cursor-pointer"></i></a>
+                <span id="https://mail.google.com/mail/u/0/#inbox" class="text-white cursor-pointer">
+                  mokbd344@gmail.com</span>
               </div>
 
               <div class="flex items-center gap-2">
-                <i class="fa-solid fa-phone text-primary"></i>
-                <span class="text-white">
-                  +91 91813 23 2309</span>
+                <i class="fa-solid fa-phone text-primary cursor-pointer"></i>
+                <span class="text-white cursor-pointer">
+                  +8801609290813</span>
               </div>
 
               <div class="flex items-center gap-2">
-                <i class="fa-solid fa-location-dot text-primary"></i>
-                <span class="text-white">
-Somewhere in the World</span>
+                <i class="fa-solid fa-location-dot text-primary cursor-pointer"></i>
+                <span class="text-white cursor-pointer">
+Bangladesh</span>
               </div>
 
             </div>
 
             <div class="flex flex-col md:flex-row items-center justify-between w-[78%] mx-auto">
               <div class="flex space-x-4">
-                <a href="#" class="bg-primary rounded-full px-6 py-4 hover:bg-white hover:text-black transition-all"><i class="fa-brands fa-facebook-f text-black"></i></a>
+                <a href="https://www.facebook.com/AR.Golam.Morshed13" class="bg-primary rounded-full px-6 py-4 hover:bg-white hover:text-black transition-all"><i class="fa-brands fa-facebook-f text-black"></i></a>
 
-                <a href="#" class="bg-primary rounded-full px-6 py-4 hover:bg-white hover:text-black transition-all"><i class="fa-brands fa-twitter text-black"></i></a>
+                <a href="https://x.com/heymorshed1" class="bg-primary rounded-full px-6 py-4 hover:bg-white hover:text-black transition-all"><i class="fa-brands fa-twitter text-black"></i></a>
 
-                <a href="#" class="bg-primary rounded-full px-6 py-4 hover:bg-white hover:text-black transition-all"><i class="fa-brands fa-linkedin text-black"></i></a>
+                <a href="https://www.linkedin.com/in/heymorshed/" class="bg-primary rounded-full px-6 py-4 hover:bg-white hover:text-black transition-all"><i class="fa-brands fa-linkedin text-black"></i></a>
               </div>
 
               <div class="text-gray-300 text-sm mt-5">
@@ -689,23 +693,24 @@ Somewhere in the World</span>
 
           </div>
         </footer>
-       
+
+        <hr>
 
 
 
+        <!-- Footer Section -->
+<footer class="bg-[#1c1c1c] text-white py-6 ">
+  <div class="container mx-auto px-4 text-center">
+    <p class="text-sm">
+      &copy; <span id="year"></span> Moeshed. All rights reserved.
+    </p>
+  </div>
+</footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- Auto Year Script -->
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 
 
